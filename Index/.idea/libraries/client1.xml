@@ -1,0 +1,26 @@
+<component name="libraryTable">
+  <library name="client1">
+    <CLASSES>
+      <root url="file://$USER_HOME$/hadoop_installs/hadoop-3.3.6/share/hadoop/client" />
+      <root url="file://$USER_HOME$/hadoop_installs/hadoop-3.3.6/share/hadoop/common" />
+      <root url="file://$USER_HOME$/hadoop_installs/hadoop-3.3.6/share/hadoop/hdfs" />
+      <root url="file://$USER_HOME$/hadoop_installs/hadoop-3.3.6/share/hadoop/mapreduce" />
+      <root url="file://$USER_HOME$/hadoop_installs/hadoop-3.3.6/share/hadoop/tools" />
+      <root url="file://$USER_HOME$/hadoop_installs/hadoop-3.3.6/share/hadoop/yarn" />
+      <root url="file://$USER_HOME$/hadoop_installs/hadoop-3.3.6/share/hadoop/common/lib" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$USER_HOME$/hadoop_installs/hadoop-3.3.6/share/hadoop/hdfs/jdiff" />
+      <root url="file://$USER_HOME$/hadoop_installs/hadoop-3.3.6/share/hadoop/common/jdiff" />
+      <root url="file://$USER_HOME$/hadoop_installs/hadoop-3.3.6/share/hadoop/mapreduce/jdiff" />
+    </SOURCES>
+    <jarDirectory url="file://$USER_HOME$/hadoop_installs/hadoop-3.3.6/share/hadoop/client" recursive="false" />
+    <jarDirectory url="file://$USER_HOME$/hadoop_installs/hadoop-3.3.6/share/hadoop/common" recursive="false" />
+    <jarDirectory url="file://$USER_HOME$/hadoop_installs/hadoop-3.3.6/share/hadoop/common/lib" recursive="false" />
+    <jarDirectory url="file://$USER_HOME$/hadoop_installs/hadoop-3.3.6/share/hadoop/hdfs" recursive="false" />
+    <jarDirectory url="file://$USER_HOME$/hadoop_installs/hadoop-3.3.6/share/hadoop/mapreduce" recursive="false" />
+    <jarDirectory url="file://$USER_HOME$/hadoop_installs/hadoop-3.3.6/share/hadoop/tools" recursive="false" />
+    <jarDirectory url="file://$USER_HOME$/hadoop_installs/hadoop-3.3.6/share/hadoop/yarn" recursive="false" />
+  </library>
+</component>

@@ -19,18 +19,19 @@ public class InvertedIndexReducer extends Reducer<Object,Text,Object,Text> {
         String fileList = new String();
         for (Text value : values) {
             fileList += value.toString() + ";";
+            //calculate average of times
             num++;
             int index = value.toString().indexOf(":");
             long t = Long.parseLong(value.toString().substring(index+1));
             times+=t;
         }
+        // get double of x.xx
         double result = (double) times / num;
         DecimalFormat df = new DecimalFormat("#.##");
         df.setMinimumFractionDigits(2);
         String formattedResult = df.format(result);
         fileList = formattedResult+","+fileList;
         Text ans=new Text();
-        ans.set(ans);
         ans.set(fileList);
         context.write(key, ans);
     }
